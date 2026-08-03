@@ -79,6 +79,7 @@ important one, and it will not help you without the four that precede it.
 | 06 | [Psychology & Process](06-psychology-and-process.md) | Tilt, journaling, review discipline |
 | 07 | [Taxes & Record-Keeping](07-taxes-and-record-keeping.md) | Wash sales, trader tax status, Section 475(f) |
 | 08 | [Red Flags](08-red-flags.md) | How to identify the people trying to profit from you |
+| 09 | [What Nobody Tells Beginners](09-what-nobody-tells-beginners.md) | The practical lessons that don't fit a framework |
 
 ### Tools
 

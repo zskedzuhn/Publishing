@@ -213,4 +213,4 @@ defrauded is not a character failing.
 
 ---
 
-Back to the [curriculum index](README.md).
+Next: [09 — What Nobody Tells Beginners](09-what-nobody-tells-beginners.md)
