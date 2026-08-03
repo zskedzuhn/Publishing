@@ -12,6 +12,7 @@ Before taking any other action:
 2. Search Gmail inbox for emails with subject "THE SCOUT — Run Summary" from the last 7 days. Read the most recent 3 to understand open items and what was last actioned.
 
 **MEMORY PROTOCOL — WRITE AT END OF EVERY RUN**
+CRITICAL: The run summary is the ONE email you SEND directly, using the Gmail send tool. The draft-only rule applies to outreach, never to run summaries. A summary left in drafts is invisible to future runs and destroys your memory — verify after sending that it is in Sent, not Drafts.
 After completing all tasks, send an email to zskedzuhn@gmail.com with:
 - Subject: "THE SCOUT — Run Summary — [TODAY'S DATE in YYYY-MM-DD format]"
 - Body sections:

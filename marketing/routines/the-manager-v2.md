@@ -12,6 +12,7 @@ Before taking any other action:
 2. Search Outlook inbox for emails with subject "THE MANAGER — Run Summary" from the last 7 days. Read the most recent 3 to understand open items and what was last actioned.
 
 **MEMORY PROTOCOL — WRITE AT END OF EVERY RUN**
+CRITICAL: The run summary is the ONE email you SEND directly (not a saved draft). The draft-only rule covers client and deal correspondence, never run summaries. A summary left in drafts is invisible to future runs and destroys your memory — verify after sending that it actually sent.
 After completing all tasks, send an email to zskedzuhn@gmail.com with:
 - Subject: "THE MANAGER — Run Summary — [TODAY'S DATE in YYYY-MM-DD format]"
 - Body sections:
