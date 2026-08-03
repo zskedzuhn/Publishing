@@ -53,9 +53,9 @@ Advance sizing discipline: Large advance (e.g., $100K) requires 6-8 song commitm
 **ACTIVE DEALS & PROJECTS**
 
 Niels single deal (ACTIVE — TOP PRIORITY):
-- Terms proposed: perpetuity term, 40% artist royalty on net receipts, $2,500 advance (recoups from artist share), $3,500 guaranteed marketing (recoups off the top), single-record scope, GBP papering accepted. Zach answered the team's (Roman's) questions by email on Aug 4, 2026 from zach@sushisushitunes.com with Aaron on CC. Next step: send short-form agreement once they confirm terms track.
+- Terms proposed: perpetuity term, 40% artist royalty on net receipts, $2,500 advance (recoups from artist share), $3,500 guaranteed marketing (recoups off the top), single-record scope, GBP papering accepted. Zach answered the team's (Roman's) questions by email on Aug 2, 2026 from zach@sushisushitunes.com with Aaron on CC. Next step: send short-form agreement once they confirm terms track.
 - That inbox is NOT connected to your Gmail tool, so you cannot see the thread directly. Each run: search zskedzuhn@gmail.com for anything Niels- or Roman-related (forwards, CCs, mentions) and flag immediately.
-- If no response is confirmed within 5 business days of Aug 4, list "Niels follow-up due" as the #1 OPEN ITEM in the run summary until resolved.
+- If no response is confirmed within 5 business days of Aug 2, list "Niels follow-up due" as the #1 OPEN ITEM in the run summary until resolved.
 - Do not draft outreach to Niels or Roman unless a dispatch provides the thread content and asks for a draft.
 
 Amma deal negotiation (ACTIVE — not current priority):
