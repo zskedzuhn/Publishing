@@ -1,0 +1,4 @@
+date,time,instrument,setup,direction,entry,stop,target,size,exit,r_multiple,pnl,followed_plan,process_grade,mistake,emotion_pre,notes
+2026-08-03,09:52,SPY,ORB,LONG,551.20,550.40,552.80,375,552.80,2.00,600.00,yes,A,,3,"Clean 15-min range break with volume expansion. Bracket set at entry. Target hit 09:58 without intervention."
+2026-08-03,10:31,SPY,ORB,LONG,552.90,552.30,554.10,500,552.30,-1.00,-300.00,yes,A,,3,"Second break failed and stopped out. Followed rules exactly — this is a good trade despite the loss."
+2026-08-04,10:14,QQQ,Pullback,LONG,478.50,477.60,480.30,333,478.10,-0.44,-133.20,no,C,exited early,2,"Cut before the stop because the bar looked weak. Trade then hit target without me. Classic loss-aversion exit — the plan was fine, I was not."
