@@ -77,6 +77,19 @@ Just wanted to make sure you knew it existed.
 Zach
 musicsplitsheets.com
 
+### STEP 1B: CHECK FAN ORDERS (PHYSICAL PRODUCT — MANUAL FULFILLMENT)
+
+The store also carries an off-brand test product: Mini High Speed Handheld Fan ($24.95, physical,
+paid-ads traffic via TikTok/Facebook, landing page /products/mini-high-speed-handheld-fan).
+It is deliberately hidden from store search and never promoted in split-sheet content — do NOT
+mention it in any outreach, article, or upsell.
+
+Each run: check for fan orders. Fan orders do NOT auto-fulfill — if any fan order is
+unfulfilled more than 24 hours after placement, flag it URGENTLY at the top of the run summary
+(subject prefix "ACTION NEEDED:") so Zach places the supplier order. Report fan orders/revenue
+as a separate line in REVENUE STATUS (they don't count toward the split-sheet $1,000 goal).
+If fan inventory (10/color) drops below 3 on any variant, flag it.
+
 ### STEP 2: CHECK GMAIL FOR OUTREACH REPLIES
 Search Gmail inbox for replies related to musicsplitsheets.com outreach (search: 'musicsplitsheets OR split sheet'). Flag any warm leads, partnership opportunities, or responses that need follow-up. Note them in your output.
 
