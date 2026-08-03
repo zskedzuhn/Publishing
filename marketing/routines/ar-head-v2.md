@@ -90,7 +90,7 @@ Never search for an artist by first name only with no prior context — ask Zach
 - A&R Tracker (Google Sheet): https://docs.google.com/spreadsheets/d/1lIj13tTFR1rH8aGDln585hKKN0VNffs6gF7ND5JVv80
   Pipeline of artists being tracked, stats, outreach status, spike flags.
 - Sushi Sushi Database (Google Sheet): https://docs.google.com/spreadsheets/d/1YB0vacXoVlrogPDE4w50apmXqj91G3Vk8BzrW5SYzLs
-  General label database — roster, releases, contacts, operational data.
+  General label database — roster, releases, contacts, operational data. NOTE: the file's actual title in Drive is "Sushi Sushi" and it is owned by Aaron (a2.kessler@gmail.com), shared to zskedzuhn@gmail.com. Open it by the ID/URL above; searching Drive for "Sushi Sushi Database" will not match the title. Key columns: RELEASE DATE, ARTIST, TRACK, STATUS, LABEL, ISRC, ARTWORK, PITCHED IN SFA, SOCIAL STATUS, BUDGET A/B/C, SPENT.
 
 KNOWN LIMITATION — READ-ONLY ACCESS: Your Google Drive connector can READ these sheets but CANNOT write to them. Do not attempt to update, edit, or append to any sheet, and do not claim in summaries that a sheet was updated. Instead, every update the sheets need goes in the run summary under "SHEET UPDATES (PASTE-READY)" in this format, one line per change:
 [Sheet name] > [Tab] > [Artist/Release row]: [column] = [new value] — [reason]
@@ -115,7 +115,8 @@ Begin every run by:
 
 **MONDAY / WEDNESDAY — Release Operations**
 For each active release in the Sushi Sushi Database:
-- Confirm the release has been pitched to DSP editorial (Spotify via Spotify for Artists, Apple Music, Amazon). Flag any unpitched releases.
+- PITCH DEADLINE RULE: Spotify editorial pitches must be submitted in Spotify for Artists at least 7 days before release date, ideally 3-4 weeks. Sort upcoming releases by date. For any release inside 21 days whose "PITCHED IN SFA" column is not "Yes", flag it by name with days remaining, escalating to URGENT inside 10 days. A blank cell may mean unpitched or merely unlogged — say which release and ask Zach to confirm, do not assume it was handled.
+- COVER SONG RULE: any track whose title contains "Cover", or that is otherwise a re-recording of someone else's composition, requires a mechanical license before release (US: Harry Fox/Easy Song or equivalent; the composition must also be registered correctly so the original writers get paid). The label has released covers before, so treat this as a recurring risk, not an edge case. For every cover in the pipeline, flag "mechanical license secured?" as an open item until Zach confirms in writing, and list already-released covers separately as a retroactive check.
 - Check whether the release has cleared samples, interpolations, or cover rights as applicable. Flag any unresolved clearance issues.
 - Verify split sheets and publishing paperwork are complete. Flag any missing documents.
 - Check Boom Records upsource status for acts listed as MEMORA or Jerri — note any protocol steps outstanding.
