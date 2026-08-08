@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stems First — Brand Guidelines</title>
+<style>
+  @page { size: 8.5in 11in; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    width: 8.5in; height: 11in;
+    background: #F6F1E6;
+    color: #201D18;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    width: 8.5in; height: 11in;
+    padding: 0.5in 0.55in 0.4in 0.55in;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ---------- Header ---------- */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #201D18;
+    padding-bottom: 0.16in;
+    margin-bottom: 0.22in;
+  }
+  .header-left { display: flex; align-items: center; gap: 0.22in; }
+  .wordmark { font-size: 30pt; letter-spacing: 0.5px; font-weight: 700; }
+  .wordmark .thin { font-weight: 400; font-style: italic; }
+  .subtitle { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 9pt; letter-spacing: 2.5px; text-transform: uppercase; color: #5A5548; margin-top: 2px; }
+  .header-right { text-align: right; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 8pt; color: #5A5548; line-height: 1.5; }
+
+  /* ---------- Section labels ---------- */
+  .section-label {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 9.5pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #201D18;
+    margin-bottom: 0.09in;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-label::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #C9C0AC;
+  }
+
+  /* ---------- Layout grid ---------- */
+  .row1 { display: flex; gap: 0.4in; margin-bottom: 0.26in; }
+  .col-logo { width: 2.35in; }
+  .col-colors { flex: 1; }
+
+  /* ---------- Logo block ---------- */
+  .logo-mark-box {
+    background: #FFFFFF;
+    border: 1px solid #D9D0BC;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.12in;
+    height: 1.55in;
+  }
+  .logo-note { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 7.3pt; color: #6B6455; line-height: 1.4; margin-top: 0.08in; }
+
+  /* ---------- Colors ---------- */
+  .swatch-grid { display: flex; gap: 0.14in; }
+  .swatch { flex: 1; }
+  .swatch-color { height: 0.72in; border-radius: 5px; border: 1px solid rgba(0,0,0,0.08); }
+  .swatch-name { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 8pt; font-weight: 700; margin-top: 0.06in; }
+  .swatch-hex { font-family: 'Courier New', monospace; font-size: 8pt; color: #5A5548; }
+  .swatch-use { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 6.8pt; color: #837C6C; margin-top: 1px; }
+
+  /* ---------- Logo usage rules row ---------- */
+  .rules-row { display: flex; gap: 0.3in; margin-bottom: 0.26in; }
+  .rule-card {
+    flex: 1;
+    background: #FFFFFF;
+    border: 1px solid #D9D0BC;
+    border-radius: 6px;
+    padding: 0.14in 0.16in;
+  }
+  .rule-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 8.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.06in; }
+  .rule-body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 8.3pt; color: #3A362E; line-height: 1.5; }
+  .clearspace-diagram { display: flex; align-items: center; justify-content: center; height: 0.68in; }
+
+  /* ---------- Typography ---------- */
+  .type-row { display: flex; gap: 0.4in; margin-bottom: 0.26in; }
+  .type-card { flex: 1; background: #FFFFFF; border: 1px solid #D9D0BC; border-radius: 6px; padding: 0.16in; }
+  .type-role { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 7.8pt; text-transform: uppercase; letter-spacing: 1.5px; color: #837C6C; margin-bottom: 0.04in; }
+  .type-name { font-size: 20pt; margin-bottom: 0.02in; }
+  .type-name.sans { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 300; font-size: 18pt; }
+  .type-name.script { font-family: 'Brush Script MT', cursive; font-size: 22pt; }
+  .type-sample { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 8pt; color: #5A5548; }
+
+  /* ---------- Dos / Donts ---------- */
+  .dd-row { display: flex; gap: 0.3in; flex: 1; }
+  .dd-card { flex: 1; border-radius: 6px; padding: 0.16in 0.18in; }
+  .dd-card.do { background: #EDEFE4; border: 1px solid #C7CDAE; }
+  .dd-card.dont { background: #F4E7E4; border: 1px solid #DDB8B0; }
+  .dd-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 11pt; letter-spacing: 1px; margin-bottom: 0.09in; text-transform: uppercase; }
+  .dd-title.do { color: #4E5B33; }
+  .dd-title.dont { color: #8C3D33; }
+  .dd-list { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 8.6pt; line-height: 1.55; padding-left: 0.16in; margin: 0; color: #2E2B24; }
+  .dd-list li { margin-bottom: 0.06in; }
+
+  .footer {
+    margin-top: 0.2in;
+    padding-top: 0.12in;
+    border-top: 1px solid #C9C0AC;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 7.3pt;
+    color: #837C6C;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="header-left">
+      <svg width="70" height="70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 16 C32 32, 34 42, 50 42 C66 42, 68 32, 68 16" stroke="#201D18" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        <line x1="32" y1="16" x2="68" y2="16" stroke="#201D18" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M47 42 C46 55, 45 66, 40 76" stroke="#201D18" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M53 42 C54 55, 55 66, 60 76" stroke="#201D18" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <ellipse cx="50" cy="80" rx="26" ry="7" stroke="#201D18" stroke-width="2.4" fill="none"/>
+      </svg>
+      <div>
+        <div class="wordmark">STEMS <span class="thin">FIRST</span></div>
+        <div class="subtitle">Natural Wine, Poured Simply</div>
+      </div>
+    </div>
+    <div class="header-right">
+      Brand Guidelines — v1.0<br>
+      Prepared for freelancer / designer use<br>
+      August 2026
+    </div>
+  </div>
+
+  <!-- ROW 1: Logo + Colors -->
+  <div class="row1">
+    <div class="col-logo">
+      <div class="section-label">Primary Mark</div>
+      <div class="logo-mark-box">
+        <svg width="120" height="140" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M28 8 C28 28, 30 40, 50 40 C70 40, 72 28, 72 8" stroke="#201D18" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <line x1="28" y1="8" x2="72" y2="8" stroke="#201D18" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M46 40 C45 56, 44 68, 40 82" stroke="#201D18" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path d="M54 40 C55 56, 56 68, 60 82" stroke="#201D18" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <ellipse cx="50" cy="87" rx="28" ry="7.5" stroke="#201D18" stroke-width="2.6" fill="none"/>
+          <text x="47" y="70" font-family="Helvetica, Arial, sans-serif" font-size="7" font-weight="700" letter-spacing="1" fill="#201D18" transform="rotate(-90 47 70)">STEMS</text>
+        </svg>
+      </div>
+      <div class="logo-note">Use official supplied logo files (SVG / PNG / EPS) for all production work — this mark is shown here only to illustrate spacing and sizing rules below.</div>
+    </div>
+
+    <div class="col-colors">
+      <div class="section-label">Color Palette</div>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#201D18;"></div>
+          <div class="swatch-name">Ink Black</div>
+          <div class="swatch-hex">#201D18</div>
+          <div class="swatch-use">Logo, type, linework</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#F6F1E6; border:1px solid #201D18;"></div>
+          <div class="swatch-name">Bone White</div>
+          <div class="swatch-hex">#F6F1E6</div>
+          <div class="swatch-use">Primary background</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#7B2D3B;"></div>
+          <div class="swatch-name">Burgundy</div>
+          <div class="swatch-hex">#7B2D3B</div>
+          <div class="swatch-use">Red wine accent</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#D98B3F;"></div>
+          <div class="swatch-name">Amber</div>
+          <div class="swatch-hex">#D98B3F</div>
+          <div class="swatch-use">Orange / skin-contact</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#5C6B47;"></div>
+          <div class="swatch-name">Moss Green</div>
+          <div class="swatch-hex">#5C6B47</div>
+          <div class="swatch-use">Vine / secondary accent</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Logo usage rules -->
+  <div class="rules-row">
+    <div class="rule-card">
+      <div class="rule-title">Minimum Size</div>
+      <div class="rule-body">
+        Never scale the full mark (glass + wordmark) smaller than <b>0.75&nbsp;in / 20&nbsp;mm</b> wide in print, or <b>120px</b> wide on screen. Below this the linework and lettering lose legibility.
+      </div>
+    </div>
+    <div class="rule-card">
+      <div class="rule-title">Clear Space</div>
+      <div class="rule-body">
+        Keep open space around the mark equal to the height of the letter <b>"S"</b> in "STEMS" on every side. No text, imagery, or edge of page may enter this zone.
+      </div>
+      <div class="clearspace-diagram">
+        <svg width="130" height="60" viewBox="0 0 130 60">
+          <rect x="2" y="2" width="126" height="56" fill="none" stroke="#B7AE97" stroke-width="1" stroke-dasharray="3,3"/>
+          <text x="65" y="34" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5A5548">clear space = "S" height</text>
+        </svg>
+      </div>
+    </div>
+    <div class="rule-card">
+      <div class="rule-title">Placement &amp; Color</div>
+      <div class="rule-body">
+        Use the black mark on Bone White or light backgrounds. Use an all-white reversed version on Ink Black or Burgundy backgrounds only. Never place on busy photography without a solid contrast panel behind it.
+      </div>
+    </div>
+  </div>
+
+  <!-- Typography -->
+  <div class="section-label">Typography</div>
+  <div class="type-row">
+    <div class="type-card">
+      <div class="type-role">Headlines / Display</div>
+      <div class="type-name">Fraunces</div>
+      <div class="type-sample">Warm editorial serif — event titles, menu headers, signage</div>
+    </div>
+    <div class="type-card">
+      <div class="type-role">Body / UI</div>
+      <div class="type-name sans">Inter</div>
+      <div class="type-sample">Clean grotesk — web copy, labels, social captions</div>
+    </div>
+    <div class="type-card">
+      <div class="type-role">Accent (sparingly)</div>
+      <div class="type-name script">Caveat</div>
+      <div class="type-sample">Hand-lettered feel echoing the logo — chalkboard signs, quotes only</div>
+    </div>
+  </div>
+
+  <!-- Dos and Don'ts -->
+  <div class="section-label">Staying On-Brand</div>
+  <div class="dd-row">
+    <div class="dd-card do">
+      <div class="dd-title do">Do</div>
+      <ul class="dd-list">
+        <li>Use the logo only in its approved black or reversed-white versions, at or above minimum size, with full clear space respected.</li>
+        <li>Keep layouts airy and unfussy — generous white (bone) space, one accent color per piece, natural/organic textures (paper, wood, linen).</li>
+        <li>Pair Fraunces headlines with Inter body copy, and let hand-poured, low-intervention language carry the voice (warm, direct, a little playful).</li>
+      </ul>
+    </div>
+    <div class="dd-card dont">
+      <div class="dd-title dont">Don't</div>
+      <ul class="dd-list">
+        <li>Don't stretch, skew, rotate, recolor, or add drop shadows / outlines / gradients to the logo.</li>
+        <li>Don't place the mark on clashing colors, low-contrast backgrounds, or busy photography without a solid backing panel.</li>
+        <li>Don't substitute brand fonts with system defaults (Arial, Times New Roman) in finished materials, or mix in more than one accent color at a time.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Stems First — Natural Wine Pop-Up</span>
+    <span>Questions on usage: zskedzuhn@gmail.com</span>
+  </div>
+
+</div>
+</body>
+</html>
