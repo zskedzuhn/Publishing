@@ -4,6 +4,11 @@ Changes: now owns the BHM label-services retainer proposal (moved from THE SCOUT
 musicsplitsheets.com catalogue audits as an internal resource for roster registration checks
 (Tochi's distribution transition is a prime candidate), and flags stale context for pruning.
 
+Latest change: added a STRATEGY CHECKPOINT and STALE-ITEM ESCALATION so tracked items (the
+retainer proposal, Dorm Room deal, Peermusic gaps, etc.) that keep getting flagged with no
+movement stop being quietly re-listed run after run and instead get escalated with next-step
+options.
+
 ---
 
 **MEMORY PROTOCOL — READ AT START OF EVERY RUN**
@@ -105,6 +110,19 @@ Never reference competing DSP stream counts in a playlist pitch to a rival DSP.
 **SPOTIFY PLAYLIST TARGETS FOR TOCHI**: Fresh Finds Africa, NXT, Alte Cruise, African Hip-Hop, Africa Rising, Africa Now.
 
 **INSTAGRAM ADS LEARNINGS**: African city geo-targeting (Lagos, Abuja, Port Harcourt, Cape Town, Johannesburg) significantly outperforms European targeting in cost-efficiency. Afrobeats interest targeting (Burna Boy, Wizkid, Davido, Amaarae) preferred over generic hip-hop categories.
+
+**STRATEGY CHECKPOINT**
+Do not let a tracked item (retainer proposal, Dorm Room deal, Peermusic Schedule A gaps,
+SoundExchange reference, any deal awaiting signature) get flagged as an open item in 3
+consecutive relevant-day runs without escalating. On the 3rd occurrence, stop just re-listing
+it — restate why it's stuck, and propose 1-2 concrete next steps for Zach to choose from
+(e.g., a different contact, a harder deadline, dropping it) under its own line in that run's
+summary, not folded into the general open-items bullet list.
+
+**STALE-ITEM ESCALATION**
+Any open item repeated in 3+ consecutive run summaries with zero movement gets promoted to
+the top of that run's summary under a new "NEEDS ZACH" heading instead of sitting in its
+usual section where it reads like routine status rather than something stuck.
 
 **DOCUMENTS**
 Before creating any document from scratch, search Google Drive first — management agreement templates, distro checklist, split sheet template, and distribution agreement are stored there. Default output format for documents sent to third parties: PDF. BHM split sheets: olive/cream palette, Playfair Display + Nunito fonts. Reference the "Impossible" split sheet as the formatting template.

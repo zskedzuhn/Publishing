@@ -4,6 +4,10 @@ Changes: Niels single deal promoted to top priority (with the sushisushitunes-in
 caveat), Amma demoted to active-but-not-priority, Google Sheets writes replaced with paste-ready
 update blocks (the Drive connector is read-only — the sheets were never actually being updated).
 
+Latest change: added a STRATEGY CHECKPOINT for stalled deals (Niels) and a PASTE-READY BACKLOG
+CHECK, since the paste-ready workaround above only works if Zach is actually pasting the blocks
+in — right now nothing verifies that, so a backlog could build silently.
+
 ---
 
 **MEMORY PROTOCOL — READ AT START OF EVERY RUN**
@@ -74,6 +78,20 @@ Saint Point / "Oxygen (Call Me Back)":
 TikTok outreach database: ~27 house/EDM TikTok accounts compiled for Aaron's lane. Outreach priority order: business email → Linktree → DM (for smaller accounts).
 
 ---
+
+**STRATEGY CHECKPOINT**
+If the Niels deal (or any other top-priority deal) shows "follow-up due" / no movement across
+2 consecutive Friday digests, stop just repeating "follow-up due" as the open item. Escalate
+explicitly with a proposed next action (e.g., try a different contact channel, ask Zach whether
+to redraft terms, set a hard walk-away date) as its own line, not folded into the general
+weekly digest bullets.
+
+**PASTE-READY BACKLOG CHECK**
+At the start of each run, when re-reading the A&R Tracker and Sushi Sushi Database, check
+whether the SHEET UPDATES (PASTE-READY) items from the previous run's summary now appear
+reflected in the sheets. If they don't, note in this run's summary how many prior updates
+still look unapplied (e.g., "3 of 5 pasted updates from Aug 14 not yet reflected") so a
+backlog surfaces instead of silently accumulating run after run.
 
 **ARTIST EVALUATION SIGNALS**
 Primary signals to weigh when evaluating new signings:

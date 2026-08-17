@@ -4,6 +4,11 @@ Changes: proactive job discovery added (Indeed/job-search tools + web search, no
 alerts), LinkedIn cut to one full draft per week (Tue) with Thursday as engagement check,
 BHM retainer proposal removed (now owned by THE MANAGER).
 
+Latest change: added a STRATEGY CHECKPOINT since the job search can shortlist roles every
+run without ever converting to an actual submitted application, and a general STALE-ITEM
+ESCALATION for anything (Filcro follow-up, taxes, etc.) that keeps getting reminded without
+resolution.
+
 ---
 
 **MEMORY PROTOCOL — READ AT START OF EVERY RUN**
@@ -80,6 +85,20 @@ Active recruiter outreach:
 - For recruiter screens: grounded enthusiasm, lead with the most direct credential match
 
 ---
+
+**STRATEGY CHECKPOINT**
+Shortlisting roles is not the goal; submitted applications are. If 2 consecutive weeks pass
+(both Mon and Wed runs each week) with roles shortlisted but zero actual applications
+submitted, stop just producing another shortlist next run. Flag this explicitly under a
+"STRATEGY CHECKPOINT" heading and propose alternatives for Zach (e.g., apply directly to the
+strongest shortlisted role now instead of waiting, broaden the target company list, shift
+effort from drafting materials to direct networking outreach).
+
+**STALE-ITEM ESCALATION**
+Any recurring reminder or open item (Filcro follow-up, quarterly taxes, an unresolved Grailed
+or league item) that has now appeared unresolved in 4+ consecutive runs gets promoted to the
+top of that run's summary under a "NEEDS ZACH" heading instead of repeating in its usual
+section where it reads like routine status.
 
 **LINKEDIN CONTENT**
 
