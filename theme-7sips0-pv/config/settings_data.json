@@ -105,8 +105,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-3",
     "sold_out_badge_color_scheme": "scheme-3",
-    "brand_headline": "Zendrop",
-    "brand_description": "<p>We create & curate amazing products at amazing products that you can’t find anywhere else.</p>",
+    "brand_headline": "WAGBOUND",
+    "brand_description": "<p>Adventure gear for dogs and the people who walk them.</p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -130,8 +130,8 @@
     "progress": "#8472ed",
     "cart_countdown_time": 4,
     "enable_cart_discount": false,
-    "enable_cart_countdown": true,
-    "enable_cart_progress": true,
+    "enable_cart_countdown": false,
+    "enable_cart_progress": false,
     "free_shipping_color_scheme": "scheme-5",
     "sections": {
       "main-password-header": {
@@ -149,48 +149,27 @@
       "cart-drawer": {
         "type": "cart-drawer",
         "blocks": {
-          "countdown_kNDGYw": {
-            "type": "countdown",
-            "settings": {
-              "background_color": "#000000",
-              "text_color": "#ffffff",
-              "cart_countdown_time": 4,
-              "cart_countdown_title": "Cart reserved for"
-            }
-          },
-          "free_shipping_bar_BKaxQd": {
-            "type": "free_shipping_bar",
-            "settings": {
-              "progress": "#8472ed",
-              "free_shipping_goal": 100,
-              "free_shipping_message": "You're [amount] away from free shipping!",
-              "free_shipping_success_message": "Congrats! You get FREE shipping!"
-            }
-          },
           "product_upsell_r7WBnf": {
             "type": "product_upsell",
             "settings": {
-              "upsell_title": "Add these products to your cart",
-              "button_color": "#8472ed",
-              "button_label_color": "#ffffff",
+              "upsell_title": "Complete your set",
+              "button_color": "#4A5D45",
+              "button_label_color": "#F5F1E8",
               "upsell_products": [
-                "ayers-chambray",
-                "5-panel-hat"
+                "wagbound-gobottle-2-pack"
               ]
             }
           },
           "discount_3AtYzV": {
             "type": "discount",
             "settings": {
-              "button_color": "#000000",
-              "button_label_color": "#ffffff",
+              "button_color": "#2B2B28",
+              "button_label_color": "#F5F1E8",
               "button_label": "Apply"
             }
           }
         },
         "block_order": [
-          "countdown_kNDGYw",
-          "free_shipping_bar_BKaxQd",
           "product_upsell_r7WBnf",
           "discount_3AtYzV"
         ],
@@ -246,68 +225,68 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#F5F1E8",
           "background_gradient": "",
-          "text": "#3d431c",
-          "button": "#bfd4c6",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#0b8437",
-          "shadow": "#bfd4c6"
+          "text": "#2B2B28",
+          "button": "#4A5D45",
+          "button_label": "#F5F1E8",
+          "secondary_button_label": "#4A5D45",
+          "shadow": "#2B2B28"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#bfd4c6",
+          "background": "#4A5D45",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#3d431c",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#3d431c",
-          "shadow": "#3d431c"
+          "text": "#F5F1E8",
+          "button": "#F5F1E8",
+          "button_label": "#2B2B28",
+          "secondary_button_label": "#F5F1E8",
+          "shadow": "#2B2B28"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#3d431c",
+          "background": "#2B2B28",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#0b8437",
-          "secondary_button_label": "#ffffff",
-          "shadow": "#bfd4c6"
+          "text": "#F5F1E8",
+          "button": "#F5F1E8",
+          "button_label": "#2B2B28",
+          "secondary_button_label": "#F5F1E8",
+          "shadow": "#4A5D45"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#F5F1E8",
           "background_gradient": "",
-          "text": "#2a324b",
-          "button": "#8472ed",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#8472ed",
-          "shadow": "#2a324b"
+          "text": "#2B2B28",
+          "button": "#2B2B28",
+          "button_label": "#F5F1E8",
+          "secondary_button_label": "#2B2B28",
+          "shadow": "#2B2B28"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#F5F1E8",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#8472ed",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#8472ed",
-          "shadow": "#2a324b"
+          "text": "#2B2B28",
+          "button": "#4A5D45",
+          "button_label": "#F5F1E8",
+          "secondary_button_label": "#4A5D45",
+          "shadow": "#2B2B28"
         }
       },
       "scheme-e0c80b90-a5af-4cbd-9aa9-5c3f81303d9a": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#F5F1E8",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "text": "#2B2B28",
+          "button": "#2B2B28",
+          "button_label": "#F5F1E8",
+          "secondary_button_label": "#2B2B28",
+          "shadow": "#2B2B28"
         }
       }
     }

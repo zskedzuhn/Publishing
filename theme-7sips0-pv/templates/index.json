@@ -1,20 +1,43 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "image_banner": {
+    "hero_banner": {
       "type": "image-banner",
+      "blocks": {
+        "heading_hero": {
+          "type": "heading",
+          "settings": {
+            "heading": "Go Further. Together.",
+            "heading_size": "h0"
+          }
+        },
+        "text_hero": {
+          "type": "text",
+          "settings": {
+            "text": "Water, food and cleanup in one bottle you carry in one hand — built for the trail, the trunk and the walk you actually take.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_hero": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the GoBottle™",
+            "button_link_1": "/products/wagbound-gobottle",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hero",
+        "text_hero",
+        "buttons_hero"
+      ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-center",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
@@ -24,48 +47,77 @@
         "show_text_below": false
       }
     },
-    "multicolumn_RUjpY8": {
+    "problem_rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_problem": {
+          "type": "heading",
+          "settings": {
+            "heading": "Every walk turns into a packing problem",
+            "heading_size": "h1"
+          }
+        },
+        "text_problem": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A bottle in one pocket, a bag of kibble in another, a roll of waste bags you forgot until you needed it. The GoBottle™ carries all three in a single unit you hold in one hand, so the other stays on the leash.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_problem",
+        "text_problem"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 72,
+        "padding_bottom": 48
+      }
+    },
+    "three_functions": {
       "type": "multicolumn",
       "blocks": {
-        "column_JYN3w8": {
+        "col_water": {
           "type": "column",
           "settings": {
-            "icon": "CheckCircle",
-            "title": "TOP QUALITY PRODUCTS",
-            "text": "<p>We create & curate amazing products at amazing products that you can’t find anywhere else.</p>",
+            "icon": "water_drop",
+            "title": "Water",
+            "text": "<p>Pour into the attached bowl, let your dog drink, tip the rest back in. Nothing wasted on the trail.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_yatXin": {
+        "col_food": {
           "type": "column",
           "settings": {
-            "icon": "Public",
-            "title": "WORLDWIDE SHIPPING",
-            "text": "<p>We create & curate amazing products at amazing products that you can’t find anywhere else.</p>",
+            "icon": "shopping_bag",
+            "title": "Food",
+            "text": "<p>A sealed compartment in the base holds kibble or treats for the walk.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_qThet3": {
+        "col_cleanup": {
           "type": "column",
           "settings": {
-            "icon": "Money",
-            "title": "MONEY BACK GUARANTEE",
-            "text": "<p>We create & curate amazing products at amazing products that you can’t find anywhere else.</p>",
+            "icon": "check_circle",
+            "title": "Cleanup",
+            "text": "<p>An integrated holder keeps a roll of waste bags on the bottle, not at the bottom of your bag.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_JYN3w8",
-        "column_yatXin",
-        "column_qThet3"
+        "col_water",
+        "col_food",
+        "col_cleanup"
       ],
-      "disabled": true,
       "settings": {
-        "title": "",
+        "title": "Three functions, one body",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -74,247 +126,146 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 68,
-        "padding_bottom": 100
+        "padding_bottom": 68
       }
     },
-    "rich_text_rHakxE": {
+    "lifestyle_use_cases": {
       "type": "rich-text",
       "blocks": {
-        "heading_wzB8wh": {
+        "heading_lifestyle": {
           "type": "heading",
           "settings": {
-            "heading": "Best Sellers",
+            "heading": "Built for the walk you actually take",
             "heading_size": "h1"
+          }
+        },
+        "text_lifestyle": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Morning loops around the neighborhood. Trailheads an hour outside the city. Long drives with the back seat folded down. Campsites where the nearest tap is a mile away. The GoBottle™ is sized for a cupholder, a side pocket, or a hand.</p>"
           }
         }
       },
       "block_order": [
-        "heading_wzB8wh"
+        "heading_lifestyle",
+        "text_lifestyle"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 72
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {}
-    },
-    "featured_product_DUEQK8": {
+    "product_demo": {
       "type": "featured-product",
       "blocks": {
-        "text_4KwP7d": {
+        "text_demo": {
           "type": "text",
           "settings": {
-            "text": "<strong>FEATURED PRODUCT</strong>",
+            "text": "<strong>THE WAGBOUND GOBOTTLE™</strong>",
             "text_style": "subtitle"
           }
         },
-        "title_Bw8Y3F": {
+        "title_demo": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "price_XxgkPR": {
+        "price_demo": {
           "type": "price",
           "settings": {}
         },
-        "variant_picker_DFPCY8": {
+        "variant_picker_demo": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_CHEANa": {
+        "quantity_selector_demo": {
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_jCqKGB": {
+        "buy_buttons_demo": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": false
           }
         }
       },
       "block_order": [
-        "text_4KwP7d",
-        "title_Bw8Y3F",
-        "price_XxgkPR",
-        "variant_picker_DFPCY8",
-        "quantity_selector_CHEANa",
-        "buy_buttons_jCqKGB"
+        "text_demo",
+        "title_demo",
+        "price_demo",
+        "variant_picker_demo",
+        "quantity_selector_demo",
+        "buy_buttons_demo"
       ],
-      "disabled": true,
       "settings": {
-        "product": "3d-mirror-wall-sticker-home-decor",
+        "product": "wagbound-gobottle",
         "color_scheme": "scheme-1",
         "secondary_background": false,
-        "media_size": "small",
+        "media_size": "large",
         "constrain_to_viewport": true,
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 32,
-        "padding_bottom": 20
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
-    "testimonials_dngRaR": {
-      "type": "testimonials",
+    "final_cta": {
+      "type": "rich-text",
       "blocks": {
-        "column_YgYXe4": {
-          "type": "column",
-          "settings": {
-            "title": "Amazing Products!",
-            "text": "<p>“Amazing products at amazing products, just like they say! Never been disappointed when buying from them\"</p>",
-            "image_pos": "below_description",
-            "author": "<em><strong>Ronan C.</strong></em>"
-          }
-        },
-        "column_4P8QAn": {
-          "type": "column",
-          "settings": {
-            "title": "Quality Was Perfect",
-            "text": "<p>\"I was surprised with how good the quality was, there’s so many home must-haves that I want. Literally the hardest part is choosing!\"</p>",
-            "image_pos": "below_description",
-            "author": "<em><strong>Jane K. </strong></em>"
-          }
-        },
-        "column_hUznym": {
-          "type": "column",
-          "settings": {
-            "title": "Shipping was Fast!",
-            "text": "<p>\"I love shopping the Trending Items, so many cool products I’ve never seen before, wish I could have them all\"</p>",
-            "image_pos": "below_description",
-            "author": "<em><strong>Anne L.</strong></em>"
-          }
-        }
-      },
-      "block_order": [
-        "column_YgYXe4",
-        "column_4P8QAn",
-        "column_hUznym"
-      ],
-      "settings": {
-        "title": "Testimonials",
-        "testimonials_per_row": 3,
-        "gap": 20,
-        "show_stars": true,
-        "stars_color": "#ffd700",
-        "background_color": "#bfd4c6",
-        "show_quotes": true,
-        "padding_top": 56,
-        "padding_bottom": 68
-      }
-    },
-    "image_with_text_WVC6Ch": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_iT36HQ": {
+        "heading_cta": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Our Story",
+            "heading": "Go Further. Together.",
             "heading_size": "h1"
           }
         },
-        "text_Uf3Pmz": {
-          "type": "text",
-          "disabled": true,
+        "button_cta": {
+          "type": "button",
           "settings": {
-            "text": "<p>We believe in enhancing your everyday experiences by providing you with a curated selection of high-quality products that cater to various aspects of your life. Established with a passion for delivering convenience, style, and innovation, we have become your go-to destination for all your everyday needs.</p>",
-            "text_style": "body"
+            "button_label": "Shop the GoBottle™ — $34.99",
+            "button_link": "/products/wagbound-gobottle",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_iT36HQ",
-        "text_Uf3Pmz"
+        "heading_cta",
+        "button_cta"
       ],
-      "disabled": true,
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "overlap",
-        "section_color_scheme": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "newsletter_94GBg4": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_fYpHbj": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_QbpEP8": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
-          }
-        },
-        "email_form_LnhkKf": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_fYpHbj",
-        "paragraph_QbpEP8",
-        "email_form_LnhkKf"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 76,
+        "padding_top": 72,
         "padding_bottom": 88
-      }
-    },
-    "section_divider_qbL6Uj": {
-      "type": "section-divider",
-      "disabled": true,
-      "settings": {
-        "shape": "waves_3",
-        "flip_horizontal": false,
-        "flip_vertical": false,
-        "background_color": "#ffffff",
-        "shape_color": "#3d431c",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "image_banner",
-    "multicolumn_RUjpY8",
-    "rich_text_rHakxE",
-    "featured_collection",
-    "featured_product_DUEQK8",
-    "testimonials_dngRaR",
-    "image_with_text_WVC6Ch",
-    "newsletter_94GBg4",
-    "section_divider_qbL6Uj"
+    "hero_banner",
+    "problem_rich_text",
+    "three_functions",
+    "lifestyle_use_cases",
+    "product_demo",
+    "final_cta"
   ]
 }
