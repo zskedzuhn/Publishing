@@ -15,6 +15,35 @@ There is no build or test command. "Correct" here means: internally consistent
 facts (prices, dates, URLs, retired pages) across every file that repeats them,
 and no accidental contradiction of a rule a routine depends on.
 
+## How the routines relate to each other
+
+The four operational agents aren't independent — they feed a reporting chain,
+and editing one can quietly break what another depends on:
+
+- Each of SPLIT MERCHANT, THE MANAGER, A&R HEAD, and THE SCOUT reads its own
+  prior run summaries at the start of every run (its MEMORY PROTOCOL) — that
+  history is its only persistent memory, so a run summary that silently ends
+  up in drafts instead of sent breaks that agent's memory going forward.
+- THE COORDINATOR runs weekly, reads all four agents' run summaries/digests by
+  subject-line match (`SPLIT MERCHANT`, `THE MANAGER`, `A&R HEAD`, `THE SCOUT`),
+  and synthesizes them into one "STATE OF ZACH" email. If you rename an agent
+  or change its run-summary subject format, update THE COORDINATOR's search
+  terms in the same change or its digest silently goes blind to that agent.
+- `briefing-v2.md` (the morning briefing) deliberately excludes all
+  agent-generated mail (`Run Summary`, `DISPATCH:`, `STATE OF ZACH`, `Reddit
+  post ready:`, `LinkedIn draft`) from the "important emails" section and
+  rolls it into a one-line drafts counter instead — this keeps the ~20/week
+  agent mail from drowning real human mail. If you add a new agent or a new
+  recurring subject pattern, add it to this exclusion list too.
+- THE MANAGER treats musicsplitsheets.com (SPLIT MERCHANT's business) as an
+  internal resource for BHM roster registration checks — a cross-business
+  reference, not a duplicate. Don't "simplify" it away as redundant.
+- SPLIT MERCHANT sends from Gmail (`zskedzuhn@gmail.com`); THE MANAGER drafts
+  in Outlook (`zach@blushhillmgmt.com`); A&R HEAD and THE SCOUT both act on
+  `zskedzuhn@gmail.com`. Dispatch emails from Zach's dashboard must land in
+  the inbox each agent actually reads, or the MEMORY PROTOCOL silently misses
+  them (A&R HEAD's own prompt flags this exact failure mode for Niels-related mail).
+
 ## Always
 
 - Read the whole routine file before editing it, not just the section you're
